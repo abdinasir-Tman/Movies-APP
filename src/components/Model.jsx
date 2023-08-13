@@ -40,7 +40,7 @@ function Model({ code, setCode, isTrue }) {
       >
         {/* <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2> */}
         <button
-          className="absolute top-10 right-12 text-red-600 text-4xl"
+          className="absolute top-10 right-12 text-white text-4xl"
           onClick={closeModal}
         >
           &times;
