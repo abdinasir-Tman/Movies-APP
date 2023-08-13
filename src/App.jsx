@@ -2,7 +2,6 @@ import "./index.css";
 import Header from "./components/Header";
 import Model from "./components/Model";
 import MoveContainer from "./components/MoveContainer";
-import Movie from "./components/Movie";
 
 function App() {
   return (
@@ -17,6 +16,7 @@ function App() {
     >
       <Header />
       <MoveContainer />
+      <Model />
     </div>
   );
 }
