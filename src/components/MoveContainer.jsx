@@ -10,7 +10,7 @@ function MoveContainer() {
     const api_key = "5a720d777c64c5443dbf53bf7435cc54";
     const fetchData = async () => {
       const request = await fetch(
-        `https://api.themoviedb.org/3/movie/popular?api_key=${api_key}&page=1`
+        `https://api.themoviedb.org/3/movie/now_playing?api_key=${api_key}&page=1`
       );
       const { results } = await request.json();
       setMovies(results);
